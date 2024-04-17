@@ -1,9 +1,9 @@
         <div class="layout">
 
         <h1>Mafia</h1>
-        <button class="player-label">Number of Players</button>
+        <label class="player-label">Number of Players</label>
         <input [(ngModel)]="playerCount" type="number" id="playerCount" class="player-input" placeholder="e.g., 2">
         <a (click)="setPlayerCount()" routerLink="/game-setup" >
-        <button  class="play-button">Let's Play</button>
+        <button  class="play-button">Start Game</button>
         </a>
         </div>
